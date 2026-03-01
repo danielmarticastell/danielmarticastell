@@ -27,7 +27,7 @@ export default function Home() {
           letterSpacing: '0.05em',
         }}
       >
-        Dedani
+        dedani
       </motion.p>
 
       {/* Nombre principal */}

@@ -18,10 +18,10 @@ export default function Urbide() {
         {/* Volver */}
         <motion.div initial="hidden" animate="visible" variants={fadeUp}>
           <Link href="/#diseno" style={{
-            fontSize: '0.85rem', color: 'var(--color-text-secondary)',
-            textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
-            marginBottom: '3rem', display: 'block'
-          }}>
+  fontSize: '0.85rem', color: 'var(--color-text-secondary)',
+  textDecoration: 'none', display: 'block',
+  marginBottom: '3rem',
+}}>
             ← Volver a proyectos
           </Link>
         </motion.div>
